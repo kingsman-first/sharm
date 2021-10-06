@@ -1,0 +1,74 @@
+.month {
+	width:42rem;
+	margin: auto;
+	border: 2px solid black;
+	display: grid;
+	grid-template-columns: 25% 50% 25%;
+	justify-content: center;
+}
+.month span {
+	padding: 1rem;
+}
+.left {
+	text-align: left;
+}
+.right {
+	text-align: right;
+}
+.month p {
+	text-align: center;
+}
+
+.days {
+	width: 42rem;
+	margin: auto;
+	display:grid;
+	grid-template-columns: 6rem 6rem 6rem 6rem 6rem 6rem 6rem;
+	grid-template-rows: 3rem;
+	justify-content: center;
+
+}
+.days div {
+	display: grid;
+	text-align: center;
+	align-content: center;
+
+
+	border: 2px solid black;	
+}
+.days p {
+	;
+}
+
+
+.numbers {
+	width: 42rem;
+	margin: auto;
+	display: grid;
+	grid-template-columns: 6rem 6rem 6rem 6rem 6rem 6rem 6rem;
+	grid-template-rows: 6rem;
+	justify-content: center;
+}
+.numbers div {
+	display: grid;
+	text-align: center;
+	align-content: center;
+
+
+	border: 2px solid purple;
+}
+.numbers p {
+
+
+}
+
+.top_left_right{
+	border-radius: 20px 20px 0px 0px;
+}
+
+.bottom_left {
+	border-radius: 0px 0px 0px 20px;
+}
+.bottom_right {
+	border-radius: 0px 0px 20px 0px;
+}
