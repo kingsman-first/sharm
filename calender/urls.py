@@ -7,4 +7,7 @@ app_name = 'calender'
 urlpatterns = [
     # Home page
     path('', views.index, name='index'),
+    # Services page
+    path('services', views.services, name='services')
+
 ]
