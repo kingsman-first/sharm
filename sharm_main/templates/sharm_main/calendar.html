@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+{% load static %}
+
 <head>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="{% static 'sharm_main/styles.css'%}">
     
     <meta charset="UTF-8">
     <title>Calendar</title>
@@ -42,7 +44,7 @@
     <div class="numbers row_1">
         <div class="column_1 col">
             <p>
-                <a href="services.html" target="_blank">1</a>
+                <a href="{% url 'services' %}" target="_blank">1</a>
             </p>
         </div>
         <div class="column_2 col">
